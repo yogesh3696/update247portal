@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Welcome to 24/7 News</title>
+    <%- include('../common/header') -%>
+</head>
+<body>
+    
+    
+    <p class="weatherReport">Weather Report :
+    <%= weatherRport %></p> 
+    <hr class="afterweather">
+
+    <hr class="newReport">
+    <% for(var i=0; i < NewReport.length; i++) { %>
+        <div class="getNews">
+            <li class="title"><span><%= NewReport[i].title %></span></li>
+            <li class="description"><span><%= NewReport[i].description %></span></li>
+            <div class="vl"></div>
+        </div>
+    <% } %>
+    
+
+    
+
+
+</body>
+    <hr class="footer">
+    <%- include('../common/footer') -%>
+</html>

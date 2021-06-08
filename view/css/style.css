@@ -1,0 +1,45 @@
+header.commonheader {
+    margin-left: -9px;
+    margin-top: -27px;
+    margin-right: -8px;
+    padding: 20px 71px 20px 20px;
+    display: inline-flex;
+}
+
+a.home, a.sports, a.contactus, a.aboutus {
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid black;
+    padding: 23px 60px 20px 54px;
+}
+
+a.home{
+    margin-left: 64px;
+}
+
+a.sports{
+    margin-left: 37px;
+}
+
+.skynewimg {
+    height: 70px;
+    width: 180px;
+}
+
+hr.afterweather, hr.footer, hr.newReport {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+p.weatherReport, .footer {
+    margin-left: 375px;
+}
+
+.vl {
+    border-left: 1px solid black;
+    height: 100px;
+  }
+
+  .getNews {
+    display: inline-flex;
+}
